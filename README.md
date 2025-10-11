@@ -1,71 +1,55 @@
-# 📘 IIIT Homework Repository – Probability & Linear Algebra
+# 📘 IIIT Homework Repository 
 
-Welcome to my **IIIT Homework Repository**, where I’ve uploaded two of my Google Colab notebooks focused on **Probability** and **Linear Algebra**.
-These notebooks combine **code implementations**, **concept explanations**, **important definitions**, and **key formulas** — all in one place.
+Welcome to my **IIIT Homework Repository**, where I’ve uploaded key Google Colab notebooks from my AI/ML coursework.  
+These notebooks combine **concept explanations**, **Python code**, and **visual learning** to connect mathematical foundations with real-world AI applications.
 
+---
 
 ## 📂 Repository Overview
 
-This repository contains two main files:
+This repository currently contains **three main modules**:
 
-1. **AIML_Course_Probability_Primer.ipynb**
+### 1. AIML_Course_Probability_Primer.ipynb
+- Covers **core concepts in probability theory** used in AI/ML.
+- Includes worked-out examples using **NumPy, SciPy, Matplotlib, and Pandas**.
+- Explains key **definitions, theorems, and visualizations** for deeper understanding.
 
-   * Covers core concepts in probability theory.
-   * Includes worked-out examples using Python (NumPy, SciPy, Matplotlib,Pandas).
-   * Contains definitions, formulas, and visualizations to deepen conceptual understanding.
+### 2. STP_Linear_Algebra.ipynb
+- Focuses on **essential linear algebra topics** such as:
+  - Matrices and matrix operations  
+  - `numpy.array`, `multi_dot()`, and matrix multiplication examples  
+- Each section includes **code snippets**, **concept notes**, and **reference video links**.
+- Serves as both a **learning resource** and a **quick revision guide**.
 
-2. **STP_Linear_Algebra.ipynb**
-
-   * Explains essential topics like matrices, Numpy array, multi_dot method.
-   * Demonstrates each topic code snippets and reference video links.
-   * Serves as both a reference and a learning notebook.
-
-
+### 3. Module_01_Lab_01_Feature_Extraction.ipynb
+- Introduces the concept of **feature extraction from data**, the foundation of all AI/ML models.
+- Demonstrates how to understand and visualize **features in images and text data**.
+- Covers examples like:
+  - Extracting numerical features (e.g., pixel intensities, edges, histograms)
+  - Analyzing written numbers and how features distinguish classes (e.g., digits 0 vs 1)
+  - Building visualizations with **Plotly** and **Matplotlib**
+- Encourages exploration
+---
 
 ## 🧠 Learning Goals
 
-* Strengthen understanding of **mathematical foundations** behind AI/ML.
-* Bridge the gap between **theory and practical implementation**.
-* Build an easy-to-follow reference for revision and quick lookup.
+- Strengthen understanding of **mathematical foundations** behind AI and ML.
+- Bridge the gap between **theory and practical coding**.
+- Develop the ability to **analyze, extract, and visualize meaningful features** from raw data.
+- Build a reusable, easy-to-follow reference for **revision and project preparation**.
 
-
+---
 
 ## 🛠️ Tools & Libraries Used
 
-These notebooks are built and executed on **Google Colab** using Python.
-Commonly used libraries include:
+All notebooks are built and tested on **Google Colab** using **Python 3.x**.
 
-* `numpy`
-* `matplotlib`
-* `scipy`
-* `pandas`
-* `pyplot`
-
-
-
-## 🚀 How to Use
-
-1. Open the `.ipynb` files directly in **Google Colab** or **Jupyter Notebook**.
-2. Run the cells in order to see the outputs and visualizations.
-3. Feel free to modify the code or add your own notes!
-
-
-
-## 🧩 Ideal For
-
-* Students learning **Probability** and **Linear Algebra** for AI/ML.
-* Anyone looking for a structured blend of **math + code**.
-* Quick revision before exams, interviews, or concept refreshers.
-
-
-
-## 📜 License
-
-This repository is intended for **educational use only**.
-You’re welcome to explore and learn — but please provide proper credit if you use or share any part of it.
-
-
-## 🙌 Acknowledgment
-
-Special thanks to **IIIT** for the coursework and guidance that inspired these notebooks.
+**Commonly Used Libraries:**
+```python
+numpy          # Numerical computations and array operations
+pandas         # Data manipulation and analysis
+matplotlib     # Static visualizations
+plotly         # Interactive charts and dashboards
+scipy          # Scientific computing and statistics
+scikit-learn   # Machine learning algorithms and preprocessing
 
