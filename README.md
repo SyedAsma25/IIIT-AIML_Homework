@@ -1,5 +1,9 @@
 # 📘 IIIT Homework Repository 
 
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Google Colab](https://img.shields.io/badge/Colab-Open_in_Colab-orange?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)](https://jupyter.org/)
+
 Welcome to my **IIIT Homework Repository**, where I’ve uploaded key Google Colab notebooks from my AI/ML coursework.  
 These notebooks combine **concept explanations**, **Python code**, and **visual learning** to connect mathematical foundations with real-world AI applications.
 
@@ -7,7 +11,7 @@ These notebooks combine **concept explanations**, **Python code**, and **visual 
 
 ## 📂 Repository Overview
 
-This repository currently contains **three main modules**:
+This repository currently contains **five main modules**:
 
 ### 1. AIML_Course_Probability_Primer.ipynb
 - Covers **core concepts in probability theory** used in AI/ML.
@@ -28,7 +32,24 @@ This repository currently contains **three main modules**:
   - Extracting numerical features (e.g., pixel intensities, edges, histograms)
   - Analyzing written numbers and how features distinguish classes (e.g., digits 0 vs 1)
   - Building visualizations with **Plotly** and **Matplotlib**
-- Encourages exploration
+- Encourages exploration and experimentation with real data.
+
+### 4. Module_01_Lab_02_KNN_Classifier.ipynb
+- Implements **Nearest Neighbour (1-NN and 3-NN) classifiers** on datasets like **California Housing**.
+- Demonstrates effects of **train/validation splits**, **dataset size**, and **random classifiers** on accuracy.
+- Includes **visualizations** of accuracy vs. training set size.
+- Helps understand **model evaluation, validation strategies, and overfitting**.
+
+### 5. Module_01_Lab_03_Data_Augmentation.ipynb
+- Explores **data augmentation techniques** to improve ML model performance.
+- Uses **MNIST dataset** to demonstrate:
+  - **Rotation augmentation**
+  - **Shear augmentation**
+  - **Combined rotation + shear**
+- Includes **grid search for hyperparameter tuning** (angle and shear constraints).
+- Shows how augmentations increase dataset size and improve accuracy.
+- Provides **visual demonstrations** of augmented images to reinforce learning.
+
 ---
 
 ## 🧠 Learning Goals
@@ -36,6 +57,7 @@ This repository currently contains **three main modules**:
 - Strengthen understanding of **mathematical foundations** behind AI and ML.
 - Bridge the gap between **theory and practical coding**.
 - Develop the ability to **analyze, extract, and visualize meaningful features** from raw data.
+- Learn **classification techniques, validation strategies, and data augmentation**.
 - Build a reusable, easy-to-follow reference for **revision and project preparation**.
 
 ---
@@ -52,4 +74,5 @@ matplotlib     # Static visualizations
 plotly         # Interactive charts and dashboards
 scipy          # Scientific computing and statistics
 scikit-learn   # Machine learning algorithms and preprocessing
-
+keras          # Deep learning and datasets (MNIST)
+skimage        # Image processing and augmentation
