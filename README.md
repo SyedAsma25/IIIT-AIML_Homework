@@ -11,7 +11,7 @@ These notebooks combine **concept explanations**, **Python code**, and **visual 
 
 ## 📂 Repository Overview
 
-This repository currently contains **five main modules**:
+This repository currently contains **six main modules**:
 
 ### 1. AIML_Course_Probability_Primer.ipynb
 - Covers **core concepts in probability theory** used in AI/ML.
@@ -50,6 +50,16 @@ This repository currently contains **five main modules**:
 - Shows how augmentations increase dataset size and improve accuracy.
 - Provides **visual demonstrations** of augmented images to reinforce learning.
 
+### 6. Module_01_Lab_04_Transforming_Data_Using_Linear_Algebra.ipynb
+- Introduces **matrix transformations** on data and their effect on distance-based algorithms.
+- Demonstrates:
+  - Transforming **coordinate systems** using linear algebra
+  - Visualizing how transformations affect **nearest neighbors in K-NN**
+  - **Feature scaling and normalization** (Min-Max rescaling and Z-score normalization)
+  - Applying transformations and normalization on both **MNIST** and **Iris datasets**
+- Explains why transformations and normalization can **improve classifier accuracy**
+- Includes exercises for experimenting with **different transformation matrices** and **feature combinations**.
+
 ---
 
 ## 🧠 Learning Goals
@@ -57,7 +67,7 @@ This repository currently contains **five main modules**:
 - Strengthen understanding of **mathematical foundations** behind AI and ML.
 - Bridge the gap between **theory and practical coding**.
 - Develop the ability to **analyze, extract, and visualize meaningful features** from raw data.
-- Learn **classification techniques, validation strategies, and data augmentation**.
+- Learn **classification techniques, validation strategies, data augmentation, and feature transformations**.
 - Build a reusable, easy-to-follow reference for **revision and project preparation**.
 
 ---
